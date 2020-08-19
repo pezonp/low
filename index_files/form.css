@@ -1,0 +1,204 @@
+.coolform-4 {
+    font-family: Tahoma,Verdana;
+    text-align: center;
+    border: 4px solid #549fd6;
+    padding: 10px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.coolform-4 h2 {
+    font-size: 45px;
+    padding: 0;
+    color: #cc073c;
+    text-transform: none;
+    border: none;
+}
+.coolform-4 h2, .coolform-4 p.date-sale {
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+}
+.coolform-4 p.date-sale {
+    font-size: 24px;
+    border-bottom: 4px solid #549fd6;
+    padding-bottom: 10px;
+}
+.coolform-4 p.date-sale-bottom {
+    font-size: 11px;
+    text-align: center;
+}
+.coolform-4 .myContent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+.myContent {
+    display: block;
+    width: 97%;
+    background: #fff;
+    padding: 25px 1.5%;
+    position: relative;
+}
+.coolform-4 .sponsor-img {
+    display: block;
+    min-width: 100%;
+    height: 130px;
+    background-size: contain;
+}
+.coolform-4 .form-wrap {
+    width: 62%;
+    position: relative;
+    border-radius: 8px;
+}
+.coolform-4 p.action-valid {
+    background-color: #013766;
+    color: #fff;
+    line-height: 29px;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 8px 8px 0 0;
+    margin: 0 0 20px;
+    padding: 10px 5px;
+}
+.coolform-4 .price-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.coolform-4 .price-content {
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: .6;
+}
+.coolform-4 .price-content, .coolform-4 .price-numb {
+    margin: 0!important;
+    padding: 0;
+    display: inline-block;
+}
+.coolform-4 .price-numb {
+    font-size: 32px;
+    font-weight: 700;
+    color: #cc073c;
+}
+.coolform-4 .price-content>span {
+    font-size: 18px;
+    text-transform: none;
+}
+.coolform-4 p.lp-text {
+    font-size: 15px;
+    text-align: center;
+}
+.coolform-4 span.left-pack {
+    font-size: 25px;
+    background: #ef1650;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 8px;
+}
+.coolform-4 input.name-black {
+    background: #fff;
+}
+.coolform-4 input.phone-black {
+    background: #fff;
+}
+.coolform-4 input {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto!important;
+    border: 1px solid #000;
+    border-radius: 6px;
+    text-indent: 65px;
+    color: #252525;
+    font-size: 20px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.coolform-4 .event_order {
+    opacity: .88;
+    position: relative;
+    display: block;
+    text-indent: 0;
+    background: #013766;
+    border-width: medium medium 5px;
+    font-size: 22px;
+    border-style: none none solid;
+    border-color: currentcolor currentcolor #012341;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -o-border-image: none;
+       border-image: none;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 15px!important;
+    border-radius: 8px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.coolform-4 p.px15 {
+    font-size: 17px;
+    text-align: center;
+    margin: 7px 0 0;
+}
+.coolform-4 .certf {
+    width: 45%;
+    height: auto;
+}
+.coolform-4 .certf img {
+    width: 100%;
+}
+@media screen and (max-width: 720px) {
+    .coolform-4 .myContent {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .coolform-4 .form-wrap, .coolform-4 .price-block {
+        width: 100%;
+    }
+    .coolform-4 input, .coolform-4 .event_order, .coolform-4 .certf {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 400px) {
+    
+    .coolform-4 input, .coolform-4 .event_order {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+}
